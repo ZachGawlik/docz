@@ -12,6 +12,7 @@ export const H2 = styled('h2')`
     left: -25px;
     opacity: 0;
     transition: opacity 0.2s;
+    backface-visibility: hidden;
   }
 
   &:hover .icon-link {
